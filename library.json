@@ -1,8 +1,8 @@
 {
-  "name": "deauthrey",
+  "name": "deaut32",
   "version": "1.0.0",
-  "description": "Library ESP32 untuk utilitas deauth & LCD (struktur proyek dan API).",
-  "keywords": ["esp32", "wifi", "lcd", "deauth", "utilities"],
+  "description": "Library ESP32 untuk utilitas deauth.",
+  "keywords": ["esp32", "wifi", "deauth", "utilities"],
   "authors": [
     {
       "name": "Reyette",
@@ -11,22 +11,19 @@
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/Zeev-x/deauthrey-esp32",
+  "homepage": "https://github.com/Zeev-x/deaut32",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zeev-x/deauthrey-esp32.git"
+    "url": "https://github.com/Zeev-x/deauth32.git"
   },
   "frameworks": ["arduino", "espidf"],
   "platforms": ["espressif32"],
-  "dependencies": {
-    "adafruit/Adafruit SSD1306" : "^2.5.7",
-    "adafruit/Adafruit GFX Library" : "^1.11.9"
-  },
+  "dependencies": {},
   "build": {
     "include": ["src"],
     "flags": [
       "-Wl,-z,muldefs",
-      "-DDEAUTHREY_LIBRARY"
+      "-DDEAUTH32_LIBRARY"
     ]
   }
 }
