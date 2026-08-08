@@ -1,7 +1,7 @@
 #include "deauth.h"
 #include "definitions.h"
 
-void deauth23() {
+void deauth32() {
   enable_deauth();
 }
 
