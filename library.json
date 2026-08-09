@@ -18,7 +18,10 @@
   },
   "frameworks": ["arduino", "espidf"],
   "platforms": ["espressif32"],
-  "dependencies": {},
+  "dependencies": {
+    "adafruit/Adafruit SSD1306": "^2.5.9",
+    "adafruit/Adafruit GFX Library": "^1.11.9"
+  },
   "build": {
     "include": ["src"],
     "flags": [
